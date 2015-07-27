@@ -1,0 +1,6 @@
+[submodule "Libraries/CoreBitcoin"]
+	path = Libraries/CoreBitcoin
+	url = https://github.com/oleganza/CoreBitcoin.git
+[submodule "Libraries/NYMnemonic"]
+	path = Libraries/NYMnemonic
+	url = https://github.com/nybex/NYMnemonic

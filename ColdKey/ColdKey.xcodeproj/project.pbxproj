@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D27C1DF1A53DC180037B4DC /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C1DE1A53DC180037B4DC /* english.txt */; };
+		8D46955A1A6E3B9300C2D1C6 /* NYMnemonic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4695591A6E3B9300C2D1C6 /* NYMnemonic.m */; };
+		8DAEAE4819E3A77B0075DA2B /* CKKeyInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAEAE4719E3A77B0075DA2B /* CKKeyInfoHelper.m */; };
+		8DD8331D19AAA52100EFB8C7 /* CKKeyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8331C19AAA52100EFB8C7 /* CKKeyInfo.m */; };
+		8DD8332C19B57FC100EFB8C7 /* CKQRCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8332B19B57FC100EFB8C7 /* CKQRCodeHelper.m */; };
+		8DD8333619C7F46000EFB8C7 /* CKRecoverKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8333519C7F46000EFB8C7 /* CKRecoverKeyView.m */; };
+		8DD8333919C7F47300EFB8C7 /* CKRecoverKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8333819C7F47300EFB8C7 /* CKRecoverKeyViewController.m */; };
+		8DD8333C19C7F9D000EFB8C7 /* CKStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8333B19C7F9D000EFB8C7 /* CKStringHelper.m */; };
+		8DD8334119C818F600EFB8C7 /* CKKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8334019C818F600EFB8C7 /* CKKeyView.m */; };
+		8DD8334419C8190B00EFB8C7 /* CKKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8334319C8190B00EFB8C7 /* CKKeyViewController.m */; };
+		8DD8334719C8FAA300EFB8C7 /* CKQRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8334619C8FAA300EFB8C7 /* CKQRScanViewController.m */; };
+		8DD8334919CA227F00EFB8C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8334819CA227F00EFB8C7 /* Images.xcassets */; };
+		8DD8335219CA83CF00EFB8C7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8335119CA83CF00EFB8C7 /* UIImage+Color.m */; };
+		8DD8335519CAAABA00EFB8C7 /* CKQRKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8335419CAAABA00EFB8C7 /* CKQRKeyView.m */; };
+		8DD8335719CB5BB700EFB8C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD8335619CB5BB700EFB8C7 /* AVFoundation.framework */; };
+		8DD8335A19CB7C7A00EFB8C7 /* CKSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8335919CB7C7A00EFB8C7 /* CKSuccessView.m */; };
+		8DD8335D19CB7C8F00EFB8C7 /* CKSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8335C19CB7C8F00EFB8C7 /* CKSuccessViewController.m */; };
+		8DD8336019D0F7BD00EFB8C7 /* CKSeedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8335F19D0F7BD00EFB8C7 /* CKSeedTextView.m */; };
+		8DE2507A19A932ED008A2094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2507919A932ED008A2094 /* Foundation.framework */; };
+		8DE2507C19A932ED008A2094 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2507B19A932ED008A2094 /* CoreGraphics.framework */; };
+		8DE2507E19A932ED008A2094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2507D19A932ED008A2094 /* UIKit.framework */; };
+		8DE2508419A932ED008A2094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2508219A932ED008A2094 /* InfoPlist.strings */; };
+		8DE2508619A932ED008A2094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2508519A932ED008A2094 /* main.m */; };
+		8DE2508A19A932ED008A2094 /* CKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2508919A932ED008A2094 /* CKAppDelegate.m */; };
+		8DE2509319A932ED008A2094 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2509219A932ED008A2094 /* XCTest.framework */; };
+		8DE2509419A932ED008A2094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2507919A932ED008A2094 /* Foundation.framework */; };
+		8DE2509519A932ED008A2094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2507D19A932ED008A2094 /* UIKit.framework */; };
+		8DE2509D19A932ED008A2094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2509B19A932ED008A2094 /* InfoPlist.strings */; };
+		8DE2509F19A932ED008A2094 /* ColdKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2509E19A932ED008A2094 /* ColdKeyTests.m */; };
+		8DE250AA19A93327008A2094 /* CKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE250A919A93327008A2094 /* CKRootViewController.m */; };
+		8DE250AD19A9344C008A2094 /* CKRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE250AC19A9344C008A2094 /* CKRootView.m */; };
+		8DEC7A7A19A9404C004DC6C0 /* CKAppearanceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC7A7919A9404C004DC6C0 /* CKAppearanceHelper.m */; };
+		8DEC7A7C19A948F7004DC6C0 /* CoreBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEC7A7B19A948F7004DC6C0 /* CoreBitcoin.framework */; };
+		8DEC7A8219A94F7D004DC6C0 /* CKNewSeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC7A8119A94F7D004DC6C0 /* CKNewSeedView.m */; };
+		8DEC7A8519A94F97004DC6C0 /* CKNewSeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC7A8419A94F97004DC6C0 /* CKNewSeedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DE2509619A932ED008A2094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE2506E19A932ED008A2094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE2507519A932ED008A2094;
+			remoteInfo = ColdKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D27C1DE1A53DC180037B4DC /* english.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = english.txt; path = ../Libraries/NYMnemonic/languages/english.txt; sourceTree = "<group>"; };
+		8D4695581A6E3B9300C2D1C6 /* NYMnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYMnemonic.h; path = ../Libraries/NYMnemonic/NYMnemonic.h; sourceTree = "<group>"; };
+		8D4695591A6E3B9300C2D1C6 /* NYMnemonic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYMnemonic.m; path = ../Libraries/NYMnemonic/NYMnemonic.m; sourceTree = "<group>"; };
+		8DAEAE4619E3A77B0075DA2B /* CKKeyInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKKeyInfoHelper.h; sourceTree = "<group>"; };
+		8DAEAE4719E3A77B0075DA2B /* CKKeyInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKKeyInfoHelper.m; sourceTree = "<group>"; };
+		8DD8331B19AAA52100EFB8C7 /* CKKeyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKKeyInfo.h; sourceTree = "<group>"; };
+		8DD8331C19AAA52100EFB8C7 /* CKKeyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKKeyInfo.m; sourceTree = "<group>"; };
+		8DD8332A19B57FC100EFB8C7 /* CKQRCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKQRCodeHelper.h; sourceTree = "<group>"; };
+		8DD8332B19B57FC100EFB8C7 /* CKQRCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKQRCodeHelper.m; sourceTree = "<group>"; };
+		8DD8333419C7F46000EFB8C7 /* CKRecoverKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRecoverKeyView.h; sourceTree = "<group>"; };
+		8DD8333519C7F46000EFB8C7 /* CKRecoverKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRecoverKeyView.m; sourceTree = "<group>"; };
+		8DD8333719C7F47300EFB8C7 /* CKRecoverKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRecoverKeyViewController.h; sourceTree = "<group>"; };
+		8DD8333819C7F47300EFB8C7 /* CKRecoverKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRecoverKeyViewController.m; sourceTree = "<group>"; };
+		8DD8333A19C7F9D000EFB8C7 /* CKStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKStringHelper.h; sourceTree = "<group>"; };
+		8DD8333B19C7F9D000EFB8C7 /* CKStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKStringHelper.m; sourceTree = "<group>"; };
+		8DD8333F19C818F600EFB8C7 /* CKKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKKeyView.h; sourceTree = "<group>"; };
+		8DD8334019C818F600EFB8C7 /* CKKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKKeyView.m; sourceTree = "<group>"; };
+		8DD8334219C8190B00EFB8C7 /* CKKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKKeyViewController.h; sourceTree = "<group>"; };
+		8DD8334319C8190B00EFB8C7 /* CKKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKKeyViewController.m; sourceTree = "<group>"; };
+		8DD8334519C8FAA300EFB8C7 /* CKQRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKQRScanViewController.h; sourceTree = "<group>"; };
+		8DD8334619C8FAA300EFB8C7 /* CKQRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKQRScanViewController.m; sourceTree = "<group>"; };
+		8DD8334819CA227F00EFB8C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ColdKey/Images.xcassets; sourceTree = "<group>"; };
+		8DD8335019CA83CF00EFB8C7 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		8DD8335119CA83CF00EFB8C7 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		8DD8335319CAAABA00EFB8C7 /* CKQRKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKQRKeyView.h; sourceTree = "<group>"; };
+		8DD8335419CAAABA00EFB8C7 /* CKQRKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKQRKeyView.m; sourceTree = "<group>"; };
+		8DD8335619CB5BB700EFB8C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8DD8335819CB7C7A00EFB8C7 /* CKSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSuccessView.h; sourceTree = "<group>"; };
+		8DD8335919CB7C7A00EFB8C7 /* CKSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSuccessView.m; sourceTree = "<group>"; };
+		8DD8335B19CB7C8F00EFB8C7 /* CKSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSuccessViewController.h; sourceTree = "<group>"; };
+		8DD8335C19CB7C8F00EFB8C7 /* CKSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSuccessViewController.m; sourceTree = "<group>"; };
+		8DD8335E19D0F7BD00EFB8C7 /* CKSeedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSeedTextView.h; sourceTree = "<group>"; };
+		8DD8335F19D0F7BD00EFB8C7 /* CKSeedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSeedTextView.m; sourceTree = "<group>"; };
+		8DE2507619A932ED008A2094 /* ColdKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE2507919A932ED008A2094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DE2507B19A932ED008A2094 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DE2507D19A932ED008A2094 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DE2508119A932ED008A2094 /* ColdKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColdKey-Info.plist"; sourceTree = "<group>"; };
+		8DE2508319A932ED008A2094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DE2508519A932ED008A2094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DE2508719A932ED008A2094 /* ColdKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColdKey-Prefix.pch"; sourceTree = "<group>"; };
+		8DE2508819A932ED008A2094 /* CKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKAppDelegate.h; sourceTree = "<group>"; };
+		8DE2508919A932ED008A2094 /* CKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKAppDelegate.m; sourceTree = "<group>"; };
+		8DE2509119A932ED008A2094 /* ColdKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE2509219A932ED008A2094 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8DE2509A19A932ED008A2094 /* ColdKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColdKeyTests-Info.plist"; sourceTree = "<group>"; };
+		8DE2509C19A932ED008A2094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DE2509E19A932ED008A2094 /* ColdKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColdKeyTests.m; sourceTree = "<group>"; };
+		8DE250A819A93327008A2094 /* CKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRootViewController.h; sourceTree = "<group>"; };
+		8DE250A919A93327008A2094 /* CKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRootViewController.m; sourceTree = "<group>"; };
+		8DE250AB19A9344C008A2094 /* CKRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRootView.h; sourceTree = "<group>"; };
+		8DE250AC19A9344C008A2094 /* CKRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRootView.m; sourceTree = "<group>"; };
+		8DEC7A7819A9404C004DC6C0 /* CKAppearanceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAppearanceHelper.h; sourceTree = "<group>"; };
+		8DEC7A7919A9404C004DC6C0 /* CKAppearanceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAppearanceHelper.m; sourceTree = "<group>"; };
+		8DEC7A7B19A948F7004DC6C0 /* CoreBitcoin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBitcoin.framework; path = ../../Libraries/CoreBitcoin/binaries/iOS/CoreBitcoin.framework; sourceTree = "<group>"; };
+		8DEC7A8019A94F7D004DC6C0 /* CKNewSeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNewSeedView.h; sourceTree = "<group>"; };
+		8DEC7A8119A94F7D004DC6C0 /* CKNewSeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNewSeedView.m; sourceTree = "<group>"; };
+		8DEC7A8319A94F97004DC6C0 /* CKNewSeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNewSeedViewController.h; sourceTree = "<group>"; };
+		8DEC7A8419A94F97004DC6C0 /* CKNewSeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNewSeedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DE2507319A932ED008A2094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD8335719CB5BB700EFB8C7 /* AVFoundation.framework in Frameworks */,
+				8DEC7A7C19A948F7004DC6C0 /* CoreBitcoin.framework in Frameworks */,
+				8DE2507C19A932ED008A2094 /* CoreGraphics.framework in Frameworks */,
+				8DE2507E19A932ED008A2094 /* UIKit.framework in Frameworks */,
+				8DE2507A19A932ED008A2094 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2508E19A932ED008A2094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE2509319A932ED008A2094 /* XCTest.framework in Frameworks */,
+				8DE2509519A932ED008A2094 /* UIKit.framework in Frameworks */,
+				8DE2509419A932ED008A2094 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D46955B1A6E3BB800C2D1C6 /* NYMnemonic */ = {
+			isa = PBXGroup;
+			children = (
+				8D4695581A6E3B9300C2D1C6 /* NYMnemonic.h */,
+				8D4695591A6E3B9300C2D1C6 /* NYMnemonic.m */,
+				8D27C1DE1A53DC180037B4DC /* english.txt */,
+			);
+			name = NYMnemonic;
+			sourceTree = "<group>";
+		};
+		8DD8332D19C2208700EFB8C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8DEC7A7819A9404C004DC6C0 /* CKAppearanceHelper.h */,
+				8DEC7A7919A9404C004DC6C0 /* CKAppearanceHelper.m */,
+				8DD8333A19C7F9D000EFB8C7 /* CKStringHelper.h */,
+				8DD8333B19C7F9D000EFB8C7 /* CKStringHelper.m */,
+				8DAEAE4619E3A77B0075DA2B /* CKKeyInfoHelper.h */,
+				8DAEAE4719E3A77B0075DA2B /* CKKeyInfoHelper.m */,
+				8DD8332A19B57FC100EFB8C7 /* CKQRCodeHelper.h */,
+				8DD8332B19B57FC100EFB8C7 /* CKQRCodeHelper.m */,
+				8DD8335019CA83CF00EFB8C7 /* UIImage+Color.h */,
+				8DD8335119CA83CF00EFB8C7 /* UIImage+Color.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8DD8333D19C8189000EFB8C7 /* Generate */ = {
+			isa = PBXGroup;
+			children = (
+				8DEC7A8319A94F97004DC6C0 /* CKNewSeedViewController.h */,
+				8DEC7A8419A94F97004DC6C0 /* CKNewSeedViewController.m */,
+				8DEC7A8019A94F7D004DC6C0 /* CKNewSeedView.h */,
+				8DEC7A8119A94F7D004DC6C0 /* CKNewSeedView.m */,
+				8DD8335B19CB7C8F00EFB8C7 /* CKSuccessViewController.h */,
+				8DD8335C19CB7C8F00EFB8C7 /* CKSuccessViewController.m */,
+				8DD8335819CB7C7A00EFB8C7 /* CKSuccessView.h */,
+				8DD8335919CB7C7A00EFB8C7 /* CKSuccessView.m */,
+				8DD8334519C8FAA300EFB8C7 /* CKQRScanViewController.h */,
+				8DD8334619C8FAA300EFB8C7 /* CKQRScanViewController.m */,
+			);
+			name = Generate;
+			sourceTree = "<group>";
+		};
+		8DD8333E19C818A100EFB8C7 /* Recover */ = {
+			isa = PBXGroup;
+			children = (
+				8DD8333719C7F47300EFB8C7 /* CKRecoverKeyViewController.h */,
+				8DD8333819C7F47300EFB8C7 /* CKRecoverKeyViewController.m */,
+				8DD8333419C7F46000EFB8C7 /* CKRecoverKeyView.h */,
+				8DD8333519C7F46000EFB8C7 /* CKRecoverKeyView.m */,
+			);
+			name = Recover;
+			sourceTree = "<group>";
+		};
+		8DE2506D19A932ED008A2094 = {
+			isa = PBXGroup;
+			children = (
+				8DE2507F19A932ED008A2094 /* ColdKey */,
+				8DD8334819CA227F00EFB8C7 /* Images.xcassets */,
+				8DE2509819A932ED008A2094 /* ColdKeyTests */,
+				8DEC7A8819A99FC9004DC6C0 /* Third-Party */,
+				8DE2507819A932ED008A2094 /* Frameworks */,
+				8DE2507719A932ED008A2094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE2507719A932ED008A2094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2507619A932ED008A2094 /* ColdKey.app */,
+				8DE2509119A932ED008A2094 /* ColdKeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DE2507819A932ED008A2094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD8335619CB5BB700EFB8C7 /* AVFoundation.framework */,
+				8DEC7A7B19A948F7004DC6C0 /* CoreBitcoin.framework */,
+				8DE2507919A932ED008A2094 /* Foundation.framework */,
+				8DE2507B19A932ED008A2094 /* CoreGraphics.framework */,
+				8DE2507D19A932ED008A2094 /* UIKit.framework */,
+				8DE2509219A932ED008A2094 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DE2507F19A932ED008A2094 /* ColdKey */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2508819A932ED008A2094 /* CKAppDelegate.h */,
+				8DE2508919A932ED008A2094 /* CKAppDelegate.m */,
+				8DEC7A8619A956A6004DC6C0 /* Views */,
+				8DEC7A8719A956B4004DC6C0 /* Model */,
+				8DD8332D19C2208700EFB8C7 /* Helpers */,
+				8DE2508019A932ED008A2094 /* Supporting Files */,
+			);
+			path = ColdKey;
+			sourceTree = "<group>";
+		};
+		8DE2508019A932ED008A2094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2508119A932ED008A2094 /* ColdKey-Info.plist */,
+				8DE2508219A932ED008A2094 /* InfoPlist.strings */,
+				8DE2508519A932ED008A2094 /* main.m */,
+				8DE2508719A932ED008A2094 /* ColdKey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DE2509819A932ED008A2094 /* ColdKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2509E19A932ED008A2094 /* ColdKeyTests.m */,
+				8DE2509919A932ED008A2094 /* Supporting Files */,
+			);
+			path = ColdKeyTests;
+			sourceTree = "<group>";
+		};
+		8DE2509919A932ED008A2094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2509A19A932ED008A2094 /* ColdKeyTests-Info.plist */,
+				8DE2509B19A932ED008A2094 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DEC7A8619A956A6004DC6C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DE250A819A93327008A2094 /* CKRootViewController.h */,
+				8DE250A919A93327008A2094 /* CKRootViewController.m */,
+				8DE250AB19A9344C008A2094 /* CKRootView.h */,
+				8DE250AC19A9344C008A2094 /* CKRootView.m */,
+				8DD8334219C8190B00EFB8C7 /* CKKeyViewController.h */,
+				8DD8334319C8190B00EFB8C7 /* CKKeyViewController.m */,
+				8DD8333F19C818F600EFB8C7 /* CKKeyView.h */,
+				8DD8334019C818F600EFB8C7 /* CKKeyView.m */,
+				8DD8335319CAAABA00EFB8C7 /* CKQRKeyView.h */,
+				8DD8335419CAAABA00EFB8C7 /* CKQRKeyView.m */,
+				8DD8335E19D0F7BD00EFB8C7 /* CKSeedTextView.h */,
+				8DD8335F19D0F7BD00EFB8C7 /* CKSeedTextView.m */,
+				8DD8333D19C8189000EFB8C7 /* Generate */,
+				8DD8333E19C818A100EFB8C7 /* Recover */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8DEC7A8719A956B4004DC6C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DD8331B19AAA52100EFB8C7 /* CKKeyInfo.h */,
+				8DD8331C19AAA52100EFB8C7 /* CKKeyInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8DEC7A8819A99FC9004DC6C0 /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				8D46955B1A6E3BB800C2D1C6 /* NYMnemonic */,
+			);
+			name = "Third-Party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DE2507519A932ED008A2094 /* ColdKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE250A219A932ED008A2094 /* Build configuration list for PBXNativeTarget "ColdKey" */;
+			buildPhases = (
+				8DE2507219A932ED008A2094 /* Sources */,
+				8DE2507319A932ED008A2094 /* Frameworks */,
+				8DE2507419A932ED008A2094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdKey;
+			productName = ColdKey;
+			productReference = 8DE2507619A932ED008A2094 /* ColdKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE2509019A932ED008A2094 /* ColdKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE250A519A932ED008A2094 /* Build configuration list for PBXNativeTarget "ColdKeyTests" */;
+			buildPhases = (
+				8DE2508D19A932ED008A2094 /* Sources */,
+				8DE2508E19A932ED008A2094 /* Frameworks */,
+				8DE2508F19A932ED008A2094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE2509719A932ED008A2094 /* PBXTargetDependency */,
+			);
+			name = ColdKeyTests;
+			productName = ColdKeyTests;
+			productReference = 8DE2509119A932ED008A2094 /* ColdKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DE2506E19A932ED008A2094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					8DE2507519A932ED008A2094 = {
+						DevelopmentTeam = 4NKMKDS8L6;
+					};
+					8DE2509019A932ED008A2094 = {
+						DevelopmentTeam = 36HK6AMALB;
+						TestTargetID = 8DE2507519A932ED008A2094;
+					};
+				};
+			};
+			buildConfigurationList = 8DE2507119A932ED008A2094 /* Build configuration list for PBXProject "ColdKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DE2506D19A932ED008A2094;
+			productRefGroup = 8DE2507719A932ED008A2094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE2507519A932ED008A2094 /* ColdKey */,
+				8DE2509019A932ED008A2094 /* ColdKeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DE2507419A932ED008A2094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27C1DF1A53DC180037B4DC /* english.txt in Resources */,
+				8DD8334919CA227F00EFB8C7 /* Images.xcassets in Resources */,
+				8DE2508419A932ED008A2094 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2508F19A932ED008A2094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE2509D19A932ED008A2094 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE2507219A932ED008A2094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD8333C19C7F9D000EFB8C7 /* CKStringHelper.m in Sources */,
+				8DD8333619C7F46000EFB8C7 /* CKRecoverKeyView.m in Sources */,
+				8D46955A1A6E3B9300C2D1C6 /* NYMnemonic.m in Sources */,
+				8DE250AD19A9344C008A2094 /* CKRootView.m in Sources */,
+				8DD8333919C7F47300EFB8C7 /* CKRecoverKeyViewController.m in Sources */,
+				8DD8334719C8FAA300EFB8C7 /* CKQRScanViewController.m in Sources */,
+				8DD8335D19CB7C8F00EFB8C7 /* CKSuccessViewController.m in Sources */,
+				8DD8336019D0F7BD00EFB8C7 /* CKSeedTextView.m in Sources */,
+				8DD8331D19AAA52100EFB8C7 /* CKKeyInfo.m in Sources */,
+				8DE2508A19A932ED008A2094 /* CKAppDelegate.m in Sources */,
+				8DD8335A19CB7C7A00EFB8C7 /* CKSuccessView.m in Sources */,
+				8DEC7A7A19A9404C004DC6C0 /* CKAppearanceHelper.m in Sources */,
+				8DD8334419C8190B00EFB8C7 /* CKKeyViewController.m in Sources */,
+				8DEC7A8519A94F97004DC6C0 /* CKNewSeedViewController.m in Sources */,
+				8DE250AA19A93327008A2094 /* CKRootViewController.m in Sources */,
+				8DEC7A8219A94F7D004DC6C0 /* CKNewSeedView.m in Sources */,
+				8DE2508619A932ED008A2094 /* main.m in Sources */,
+				8DD8335219CA83CF00EFB8C7 /* UIImage+Color.m in Sources */,
+				8DD8332C19B57FC100EFB8C7 /* CKQRCodeHelper.m in Sources */,
+				8DD8334119C818F600EFB8C7 /* CKKeyView.m in Sources */,
+				8DAEAE4819E3A77B0075DA2B /* CKKeyInfoHelper.m in Sources */,
+				8DD8335519CAAABA00EFB8C7 /* CKQRKeyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2508D19A932ED008A2094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE2509F19A932ED008A2094 /* ColdKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE2509719A932ED008A2094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE2507519A932ED008A2094 /* ColdKey */;
+			targetProxy = 8DE2509619A932ED008A2094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DE2508219A932ED008A2094 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE2508319A932ED008A2094 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DE2509B19A932ED008A2094 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE2509C19A932ED008A2094 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DE250A019A932ED008A2094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DE250A119A932ED008A2094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE250A319A932ED008A2094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../Libraries/CoreBitcoin/binaries/iOS,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColdKey/ColdKey-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../Libraries/CoreBitcoin/**",
+					../Libraries/NYMnemonic,
+				);
+				INFOPLIST_FILE = "ColdKey/ColdKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "../src/Libraries/CoreBitcoin/** ../src/Libraries/NYMnemonic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DE250A419A932ED008A2094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../Libraries/CoreBitcoin/binaries/iOS,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColdKey/ColdKey-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../Libraries/CoreBitcoin/**",
+					../Libraries/NYMnemonic,
+				);
+				INFOPLIST_FILE = "ColdKey/ColdKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "../src/Libraries/CoreBitcoin/** ../src/Libraries/NYMnemonic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DE250A619A932ED008A2094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColdKey.app/ColdKey";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColdKey/ColdKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ColdKeyTests/ColdKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8DE250A719A932ED008A2094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColdKey.app/ColdKey";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColdKey/ColdKey-Prefix.pch";
+				INFOPLIST_FILE = "ColdKeyTests/ColdKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DE2507119A932ED008A2094 /* Build configuration list for PBXProject "ColdKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE250A019A932ED008A2094 /* Debug */,
+				8DE250A119A932ED008A2094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE250A219A932ED008A2094 /* Build configuration list for PBXNativeTarget "ColdKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE250A319A932ED008A2094 /* Debug */,
+				8DE250A419A932ED008A2094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE250A519A932ED008A2094 /* Build configuration list for PBXNativeTarget "ColdKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE250A619A932ED008A2094 /* Debug */,
+				8DE250A719A932ED008A2094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DE2506E19A932ED008A2094 /* Project object */;
+}
