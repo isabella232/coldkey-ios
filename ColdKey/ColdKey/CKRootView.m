@@ -47,13 +47,6 @@
               forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_recoverButton];
     
-    _helpButton = SecondaryButton();
-    [_helpButton setTitle:@"Help" forState:UIControlStateNormal];
-    [_helpButton addTarget:self
-                       action:@selector(_helpPressed:)
-             forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:_helpButton];
-    
     _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
     _activityView.color = PrimaryTintColor();
     [self addSubview:_activityView];
@@ -72,11 +65,7 @@
   CGFloat y = bounds.height - ButtonBottomPadding();
   _generateButton.frame = CGRectMake(XMargin(), y, constraintWidth, ButtonHeight());
   
-  CGFloat smButtonWidth = roundf(constraintWidth/3);
-  CGFloat lgButtonWidth = constraintWidth - smButtonWidth - 10;
-
-  _helpButton.frame = CGRectMake(XMargin(), _generateButton.frame.origin.y + _generateButton.frame.size.height + 10, smButtonWidth, ButtonHeight());
-  _recoverButton.frame = CGRectMake(XMargin() + smButtonWidth + 10, _generateButton.frame.origin.y + _generateButton.frame.size.height + 10, lgButtonWidth, ButtonHeight());
+  _recoverButton.frame = CGRectMake(XMargin(), _generateButton.frame.origin.y + _generateButton.frame.size.height + 10, constraintWidth, ButtonHeight());
 
   CGSize labelSize = [_coldKeyLabel sizeThatFits:CGSizeMake(constraintWidth, MAXFLOAT)];
   CGFloat logoY = roundf((_generateButton.frame.origin.y - (_logoView.frame.size.height + labelSize.height + 10))/2);

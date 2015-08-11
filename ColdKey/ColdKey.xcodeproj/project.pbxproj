@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566D945F1B76BF2E00E45BD8 /* CKSimulatorHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 566D945E1B76BF2E00E45BD8 /* CKSimulatorHelper.c */; };
+		566D94601B76BF2E00E45BD8 /* CKSimulatorHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 566D945E1B76BF2E00E45BD8 /* CKSimulatorHelper.c */; };
 		8D27C1DF1A53DC180037B4DC /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C1DE1A53DC180037B4DC /* english.txt */; };
 		8D46955A1A6E3B9300C2D1C6 /* NYMnemonic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4695591A6E3B9300C2D1C6 /* NYMnemonic.m */; };
 		8DAEAE4819E3A77B0075DA2B /* CKKeyInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAEAE4719E3A77B0075DA2B /* CKKeyInfoHelper.m */; };
@@ -55,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		566D945E1B76BF2E00E45BD8 /* CKSimulatorHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CKSimulatorHelper.c; sourceTree = "<group>"; };
 		8D27C1DE1A53DC180037B4DC /* english.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = english.txt; path = ../Libraries/NYMnemonic/languages/english.txt; sourceTree = "<group>"; };
 		8D4695581A6E3B9300C2D1C6 /* NYMnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYMnemonic.h; path = ../Libraries/NYMnemonic/NYMnemonic.h; sourceTree = "<group>"; };
 		8D4695591A6E3B9300C2D1C6 /* NYMnemonic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYMnemonic.m; path = ../Libraries/NYMnemonic/NYMnemonic.m; sourceTree = "<group>"; };
@@ -251,6 +254,7 @@
 				8DE2508219A932ED008A2094 /* InfoPlist.strings */,
 				8DE2508519A932ED008A2094 /* main.m */,
 				8DE2508719A932ED008A2094 /* ColdKey-Prefix.pch */,
+				566D945E1B76BF2E00E45BD8 /* CKSimulatorHelper.c */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -360,7 +364,7 @@
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
 					8DE2507519A932ED008A2094 = {
-						DevelopmentTeam = 4NKMKDS8L6;
+						DevelopmentTeam = 36HK6AMALB;
 					};
 					8DE2509019A932ED008A2094 = {
 						DevelopmentTeam = 36HK6AMALB;
@@ -416,6 +420,7 @@
 				8DD8333619C7F46000EFB8C7 /* CKRecoverKeyView.m in Sources */,
 				8D46955A1A6E3B9300C2D1C6 /* NYMnemonic.m in Sources */,
 				8DE250AD19A9344C008A2094 /* CKRootView.m in Sources */,
+				566D945F1B76BF2E00E45BD8 /* CKSimulatorHelper.c in Sources */,
 				8DD8333919C7F47300EFB8C7 /* CKRecoverKeyViewController.m in Sources */,
 				8DD8334719C8FAA300EFB8C7 /* CKQRScanViewController.m in Sources */,
 				8DD8335D19CB7C8F00EFB8C7 /* CKSuccessViewController.m in Sources */,
@@ -441,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566D94601B76BF2E00E45BD8 /* CKSimulatorHelper.c in Sources */,
 				8DE2509F19A932ED008A2094 /* ColdKeyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,6 +573,7 @@
 				INFOPLIST_FILE = "ColdKey/ColdKey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../src/Libraries/CoreBitcoin/** ../src/Libraries/NYMnemonic";
 				WRAPPER_EXTENSION = app;
 			};
@@ -594,6 +601,7 @@
 				INFOPLIST_FILE = "ColdKey/ColdKey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../src/Libraries/CoreBitcoin/** ../src/Libraries/NYMnemonic";
 				WRAPPER_EXTENSION = app;
 			};
