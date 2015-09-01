@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5615EAAF1B7C364300627341 /* BitGoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615EAAE1B7C364300627341 /* BitGoTextView.swift */; };
+		5615EAB01B7C364300627341 /* BitGoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615EAAE1B7C364300627341 /* BitGoTextView.swift */; };
+		5615EAB21B7C45B100627341 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615EAB11B7C45B100627341 /* RandomViewController.swift */; };
+		5615EAB31B7C45B100627341 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615EAB11B7C45B100627341 /* RandomViewController.swift */; };
+		561A8ECD1B794F1200E14465 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A8ECC1B794F1200E14465 /* AlertManager.swift */; };
+		561A8ECE1B794F1200E14465 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A8ECC1B794F1200E14465 /* AlertManager.swift */; };
+		5656EFC61B6982A6008A0740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFC51B6982A6008A0740 /* AppDelegate.swift */; };
+		5656EFCD1B6982A6008A0740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5656EFCC1B6982A6008A0740 /* Images.xcassets */; };
+		5656EFD01B6982A6008A0740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5656EFCE1B6982A6008A0740 /* LaunchScreen.xib */; };
+		5656EFDC1B6982A6008A0740 /* ColdKeySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFDB1B6982A6008A0740 /* ColdKeySwiftTests.swift */; };
+		5656EFE61B6982DE008A0740 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5656EFE51B6982DE008A0740 /* Storyboard.storyboard */; };
+		5656EFE71B6982DE008A0740 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5656EFE51B6982DE008A0740 /* Storyboard.storyboard */; };
+		5656EFEC1B69831D008A0740 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFE81B69831D008A0740 /* ConfirmViewController.swift */; };
+		5656EFED1B69831D008A0740 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFE81B69831D008A0740 /* ConfirmViewController.swift */; };
+		5656EFEE1B69831D008A0740 /* KeyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFE91B69831D008A0740 /* KeyInfo.swift */; };
+		5656EFEF1B69831D008A0740 /* KeyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFE91B69831D008A0740 /* KeyInfo.swift */; };
+		5656EFF01B69831D008A0740 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFEA1B69831D008A0740 /* KeyViewController.swift */; };
+		5656EFF11B69831D008A0740 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFEA1B69831D008A0740 /* KeyViewController.swift */; };
+		5656EFF21B69831D008A0740 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFEB1B69831D008A0740 /* RootViewController.swift */; };
+		5656EFF31B69831D008A0740 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656EFEB1B69831D008A0740 /* RootViewController.swift */; };
+		5656EFFB1B6984AE008A0740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656EFFA1B6984AE008A0740 /* UIKit.framework */; };
+		5656EFFD1B6984B3008A0740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656EFFC1B6984B3008A0740 /* Foundation.framework */; };
+		5656F0051B698BC5008A0740 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656F0041B698BC5008A0740 /* AVFoundation.framework */; };
+		5656F0281B699D2C008A0740 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656F0041B698BC5008A0740 /* AVFoundation.framework */; };
+		5656F0291B699D31008A0740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656EFFC1B6984B3008A0740 /* Foundation.framework */; };
+		5656F02A1B699D36008A0740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656EFFA1B6984AE008A0740 /* UIKit.framework */; };
+		5656F0381B69B67E008A0740 /* KeyInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F0371B69B67E008A0740 /* KeyInfoManager.swift */; };
+		5656F0391B69B67E008A0740 /* KeyInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F0371B69B67E008A0740 /* KeyInfoManager.swift */; };
+		5656F0401B69C610008A0740 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F03F1B69C610008A0740 /* QRCodeViewController.swift */; };
+		5656F0411B69C610008A0740 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F03F1B69C610008A0740 /* QRCodeViewController.swift */; };
+		5656F0431B69C6FC008A0740 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F0421B69C6FC008A0740 /* SuccessViewController.swift */; };
+		5656F0441B69C6FC008A0740 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656F0421B69C6FC008A0740 /* SuccessViewController.swift */; };
+		569FAA581B6A1E0E00F5AAC3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAA571B6A1E0E00F5AAC3 /* ScanViewController.swift */; };
+		569FAA591B6A1E0E00F5AAC3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAA571B6A1E0E00F5AAC3 /* ScanViewController.swift */; };
+		569FAA821B6AA3A600F5AAC3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569FAA7B1B6AA35200F5AAC3 /* Alamofire.framework */; };
+		569FAA831B6AA3A600F5AAC3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 569FAA7B1B6AA35200F5AAC3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		569FAAA91B706D8100F5AAC3 /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAAA81B706D8100F5AAC3 /* RecoverViewController.swift */; };
+		569FAAAA1B706D8100F5AAC3 /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAAA81B706D8100F5AAC3 /* RecoverViewController.swift */; };
+		569FAAB01B70793000F5AAC3 /* ColdKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAAAF1B70793000F5AAC3 /* ColdKeyViewController.swift */; };
+		569FAAB11B70793000F5AAC3 /* ColdKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FAAAF1B70793000F5AAC3 /* ColdKeyViewController.swift */; };
+		569FAABB1B71745900F5AAC3 /* simulatorHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 569FAABA1B71745900F5AAC3 /* simulatorHelper.c */; };
+		569FAABC1B71745900F5AAC3 /* simulatorHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 569FAABA1B71745900F5AAC3 /* simulatorHelper.c */; };
+		56DC2B471B727F5300EA0E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC2B461B727F5300EA0E72 /* QuartzCore.framework */; };
+		56DC2B651B72A47200EA0E72 /* CoreBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC2B641B72A47200EA0E72 /* CoreBitcoin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5656EFD61B6982A6008A0740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5656EFB81B6982A6008A0740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5656EFBF1B6982A6008A0740;
+			remoteInfo = ColdKeySwift;
+		};
+		569FAA7A1B6AA35200F5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		569FAA7C1B6AA35200F5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		569FAA7E1B6AA35200F5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		569FAA801B6AA35200F5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		569FAA841B6AA3A700F5AAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		56DC2B581B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2084DD5D17B8FF47005AC9E6;
+			remoteInfo = UnitTests;
+		};
+		56DC2B5A1B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 206B0113183547C200878B8D;
+			remoteInfo = CoreBitcoinOSX;
+		};
+		56DC2B5C1B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20148ADF18355D7200E68E9C;
+			remoteInfo = CoreBitcoinIOSlib;
+		};
+		56DC2B5E1B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20148C031835638200E68E9C;
+			remoteInfo = CoreBitcoinIOS;
+		};
+		56DC2B601B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20148C9B183643AB00E68E9C;
+			remoteInfo = CoreBitcoinOSXlib;
+		};
+		56DC2B621B72A44F00EA0E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 757B24151B03F1BF0084A9DE;
+			remoteInfo = CoreBitcoinTestsOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		569FAA861B6AA3A700F5AAC3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				569FAA831B6AA3A600F5AAC3 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5615EAAE1B7C364300627341 /* BitGoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitGoTextView.swift; sourceTree = "<group>"; };
+		5615EAB11B7C45B100627341 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		561A8ECC1B794F1200E14465 /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		5656EFC01B6982A6008A0740 /* ColdKeySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdKeySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656EFC41B6982A6008A0740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5656EFC51B6982A6008A0740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5656EFCC1B6982A6008A0740 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5656EFCF1B6982A6008A0740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5656EFD51B6982A6008A0740 /* ColdKeySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdKeySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656EFDA1B6982A6008A0740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5656EFDB1B6982A6008A0740 /* ColdKeySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdKeySwiftTests.swift; sourceTree = "<group>"; };
+		5656EFE51B6982DE008A0740 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5656EFE81B69831D008A0740 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		5656EFE91B69831D008A0740 /* KeyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInfo.swift; sourceTree = "<group>"; };
+		5656EFEA1B69831D008A0740 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
+		5656EFEB1B69831D008A0740 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5656EFFA1B6984AE008A0740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5656EFFC1B6984B3008A0740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5656F0041B698BC5008A0740 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5656F0271B699CC3008A0740 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		5656F0371B69B67E008A0740 /* KeyInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInfoManager.swift; sourceTree = "<group>"; };
+		5656F03F1B69C610008A0740 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		5656F0421B69C6FC008A0740 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		5670F5DE1B730E95008A6234 /* bitgo.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitgo.com.cer; sourceTree = "<group>"; };
+		569FAA571B6A1E0E00F5AAC3 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Libraries/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		569FAAA81B706D8100F5AAC3 /* RecoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecoverViewController.swift; sourceTree = "<group>"; };
+		569FAAAF1B70793000F5AAC3 /* ColdKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdKeyViewController.swift; sourceTree = "<group>"; };
+		569FAABA1B71745900F5AAC3 /* simulatorHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simulatorHelper.c; sourceTree = "<group>"; };
+		56DC2B461B727F5300EA0E72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoreBitcoin.xcodeproj; path = ../Libraries/CoreBitcoin/CoreBitcoin.xcodeproj; sourceTree = "<group>"; };
+		56DC2B641B72A47200EA0E72 /* CoreBitcoin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBitcoin.framework; path = ../../Libraries/CoreBitcoin/binaries/iOS/CoreBitcoin.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5656EFBD1B6982A6008A0740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC2B651B72A47200EA0E72 /* CoreBitcoin.framework in Frameworks */,
+				56DC2B471B727F5300EA0E72 /* QuartzCore.framework in Frameworks */,
+				5656F0051B698BC5008A0740 /* AVFoundation.framework in Frameworks */,
+				5656EFFD1B6984B3008A0740 /* Foundation.framework in Frameworks */,
+				569FAA821B6AA3A600F5AAC3 /* Alamofire.framework in Frameworks */,
+				5656EFFB1B6984AE008A0740 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5656EFD21B6982A6008A0740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656F02A1B699D36008A0740 /* UIKit.framework in Frameworks */,
+				5656F0291B699D31008A0740 /* Foundation.framework in Frameworks */,
+				5656F0281B699D2C008A0740 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5656EFB71B6982A6008A0740 = {
+			isa = PBXGroup;
+			children = (
+				56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */,
+				569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */,
+				5656F0271B699CC3008A0740 /* BridgingHeader.h */,
+				569FAABA1B71745900F5AAC3 /* simulatorHelper.c */,
+				5656EFC21B6982A6008A0740 /* ColdKeySwift */,
+				5656EFD81B6982A6008A0740 /* ColdKeySwiftTests */,
+				5656EFC11B6982A6008A0740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5656EFC11B6982A6008A0740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5656EFC01B6982A6008A0740 /* ColdKeySwift.app */,
+				5656EFD51B6982A6008A0740 /* ColdKeySwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5656EFC21B6982A6008A0740 /* ColdKeySwift */ = {
+			isa = PBXGroup;
+			children = (
+				569FAAAE1B706D9300F5AAC3 /* Controllers */,
+				5656EFE91B69831D008A0740 /* KeyInfo.swift */,
+				5656F0371B69B67E008A0740 /* KeyInfoManager.swift */,
+				561A8ECC1B794F1200E14465 /* AlertManager.swift */,
+				5615EAAE1B7C364300627341 /* BitGoTextView.swift */,
+				5656EFE51B6982DE008A0740 /* Storyboard.storyboard */,
+				5656EFC51B6982A6008A0740 /* AppDelegate.swift */,
+				5656EFCC1B6982A6008A0740 /* Images.xcassets */,
+				5656EFCE1B6982A6008A0740 /* LaunchScreen.xib */,
+				5656EFC31B6982A6008A0740 /* Supporting Files */,
+			);
+			path = ColdKeySwift;
+			sourceTree = "<group>";
+		};
+		5656EFC31B6982A6008A0740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5670F5DE1B730E95008A6234 /* bitgo.com.cer */,
+				56DC2B641B72A47200EA0E72 /* CoreBitcoin.framework */,
+				56DC2B461B727F5300EA0E72 /* QuartzCore.framework */,
+				5656F0041B698BC5008A0740 /* AVFoundation.framework */,
+				5656EFFC1B6984B3008A0740 /* Foundation.framework */,
+				5656EFFA1B6984AE008A0740 /* UIKit.framework */,
+				5656EFC41B6982A6008A0740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5656EFD81B6982A6008A0740 /* ColdKeySwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5656EFDB1B6982A6008A0740 /* ColdKeySwiftTests.swift */,
+				5656EFD91B6982A6008A0740 /* Supporting Files */,
+			);
+			path = ColdKeySwiftTests;
+			sourceTree = "<group>";
+		};
+		5656EFD91B6982A6008A0740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5656EFDA1B6982A6008A0740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		569FAA741B6AA35200F5AAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569FAA7B1B6AA35200F5AAC3 /* Alamofire.framework */,
+				569FAA7D1B6AA35200F5AAC3 /* Alamofire.framework */,
+				569FAA7F1B6AA35200F5AAC3 /* Alamofire iOS Tests.xctest */,
+				569FAA811B6AA35200F5AAC3 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569FAAAE1B706D9300F5AAC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5656EFE81B69831D008A0740 /* ConfirmViewController.swift */,
+				5656EFEA1B69831D008A0740 /* KeyViewController.swift */,
+				5656EFEB1B69831D008A0740 /* RootViewController.swift */,
+				5656F03F1B69C610008A0740 /* QRCodeViewController.swift */,
+				5656F0421B69C6FC008A0740 /* SuccessViewController.swift */,
+				569FAA571B6A1E0E00F5AAC3 /* ScanViewController.swift */,
+				569FAAA81B706D8100F5AAC3 /* RecoverViewController.swift */,
+				569FAAAF1B70793000F5AAC3 /* ColdKeyViewController.swift */,
+				5615EAB11B7C45B100627341 /* RandomViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		56DC2B501B72A44F00EA0E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DC2B591B72A44F00EA0E72 /* UnitTests */,
+				56DC2B5B1B72A44F00EA0E72 /* CoreBitcoinOSX.framework */,
+				56DC2B5D1B72A44F00EA0E72 /* libCoreBitcoinIOS.a */,
+				56DC2B5F1B72A44F00EA0E72 /* CoreBitcoinIOS.framework */,
+				56DC2B611B72A44F00EA0E72 /* libCoreBitcoinOSX.a */,
+				56DC2B631B72A44F00EA0E72 /* CoreBitcoinTestsOSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5656EFBF1B6982A6008A0740 /* ColdKeySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5656EFDF1B6982A6008A0740 /* Build configuration list for PBXNativeTarget "ColdKeySwift" */;
+			buildPhases = (
+				5656EFBC1B6982A6008A0740 /* Sources */,
+				5656EFBD1B6982A6008A0740 /* Frameworks */,
+				5656EFBE1B6982A6008A0740 /* Resources */,
+				569FAA861B6AA3A700F5AAC3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				569FAA851B6AA3A700F5AAC3 /* PBXTargetDependency */,
+			);
+			name = ColdKeySwift;
+			productName = ColdKeySwift;
+			productReference = 5656EFC01B6982A6008A0740 /* ColdKeySwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5656EFD41B6982A6008A0740 /* ColdKeySwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5656EFE21B6982A6008A0740 /* Build configuration list for PBXNativeTarget "ColdKeySwiftTests" */;
+			buildPhases = (
+				5656EFD11B6982A6008A0740 /* Sources */,
+				5656EFD21B6982A6008A0740 /* Frameworks */,
+				5656EFD31B6982A6008A0740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5656EFD71B6982A6008A0740 /* PBXTargetDependency */,
+			);
+			name = ColdKeySwiftTests;
+			productName = ColdKeySwiftTests;
+			productReference = 5656EFD51B6982A6008A0740 /* ColdKeySwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5656EFB81B6982A6008A0740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BitGo, Inc.";
+				TargetAttributes = {
+					5656EFBF1B6982A6008A0740 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 36HK6AMALB;
+					};
+					5656EFD41B6982A6008A0740 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 36HK6AMALB;
+						TestTargetID = 5656EFBF1B6982A6008A0740;
+					};
+				};
+			};
+			buildConfigurationList = 5656EFBB1B6982A6008A0740 /* Build configuration list for PBXProject "ColdKeySwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5656EFB71B6982A6008A0740;
+			productRefGroup = 5656EFC11B6982A6008A0740 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 569FAA741B6AA35200F5AAC3 /* Products */;
+					ProjectRef = 569FAA731B6AA35200F5AAC3 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 56DC2B501B72A44F00EA0E72 /* Products */;
+					ProjectRef = 56DC2B4F1B72A44F00EA0E72 /* CoreBitcoin.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5656EFBF1B6982A6008A0740 /* ColdKeySwift */,
+				5656EFD41B6982A6008A0740 /* ColdKeySwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		569FAA7B1B6AA35200F5AAC3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 569FAA7A1B6AA35200F5AAC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		569FAA7D1B6AA35200F5AAC3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 569FAA7C1B6AA35200F5AAC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		569FAA7F1B6AA35200F5AAC3 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 569FAA7E1B6AA35200F5AAC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		569FAA811B6AA35200F5AAC3 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 569FAA801B6AA35200F5AAC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B591B72A44F00EA0E72 /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = 56DC2B581B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B5B1B72A44F00EA0E72 /* CoreBitcoinOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoreBitcoinOSX.framework;
+			remoteRef = 56DC2B5A1B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B5D1B72A44F00EA0E72 /* libCoreBitcoinIOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCoreBitcoinIOS.a;
+			remoteRef = 56DC2B5C1B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B5F1B72A44F00EA0E72 /* CoreBitcoinIOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreBitcoinIOS.framework;
+			remoteRef = 56DC2B5E1B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B611B72A44F00EA0E72 /* libCoreBitcoinOSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCoreBitcoinOSX.a;
+			remoteRef = 56DC2B601B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56DC2B631B72A44F00EA0E72 /* CoreBitcoinTestsOSX.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreBitcoinTestsOSX.xctest;
+			remoteRef = 56DC2B621B72A44F00EA0E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5656EFBE1B6982A6008A0740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656EFD01B6982A6008A0740 /* LaunchScreen.xib in Resources */,
+				5656EFCD1B6982A6008A0740 /* Images.xcassets in Resources */,
+				5656EFE61B6982DE008A0740 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5656EFD31B6982A6008A0740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656EFE71B6982DE008A0740 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5656EFBC1B6982A6008A0740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615EAB21B7C45B100627341 /* RandomViewController.swift in Sources */,
+				5656EFF21B69831D008A0740 /* RootViewController.swift in Sources */,
+				5656EFC61B6982A6008A0740 /* AppDelegate.swift in Sources */,
+				569FAA581B6A1E0E00F5AAC3 /* ScanViewController.swift in Sources */,
+				5615EAAF1B7C364300627341 /* BitGoTextView.swift in Sources */,
+				5656EFEE1B69831D008A0740 /* KeyInfo.swift in Sources */,
+				569FAABB1B71745900F5AAC3 /* simulatorHelper.c in Sources */,
+				569FAAB01B70793000F5AAC3 /* ColdKeyViewController.swift in Sources */,
+				5656F0381B69B67E008A0740 /* KeyInfoManager.swift in Sources */,
+				5656F0401B69C610008A0740 /* QRCodeViewController.swift in Sources */,
+				5656EFF01B69831D008A0740 /* KeyViewController.swift in Sources */,
+				5656F0431B69C6FC008A0740 /* SuccessViewController.swift in Sources */,
+				5656EFEC1B69831D008A0740 /* ConfirmViewController.swift in Sources */,
+				561A8ECD1B794F1200E14465 /* AlertManager.swift in Sources */,
+				569FAAA91B706D8100F5AAC3 /* RecoverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5656EFD11B6982A6008A0740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615EAB31B7C45B100627341 /* RandomViewController.swift in Sources */,
+				5656EFF31B69831D008A0740 /* RootViewController.swift in Sources */,
+				5656EFDC1B6982A6008A0740 /* ColdKeySwiftTests.swift in Sources */,
+				569FAA591B6A1E0E00F5AAC3 /* ScanViewController.swift in Sources */,
+				5615EAB01B7C364300627341 /* BitGoTextView.swift in Sources */,
+				5656EFEF1B69831D008A0740 /* KeyInfo.swift in Sources */,
+				569FAAB11B70793000F5AAC3 /* ColdKeyViewController.swift in Sources */,
+				561A8ECE1B794F1200E14465 /* AlertManager.swift in Sources */,
+				5656F0391B69B67E008A0740 /* KeyInfoManager.swift in Sources */,
+				5656F0411B69C610008A0740 /* QRCodeViewController.swift in Sources */,
+				5656EFF11B69831D008A0740 /* KeyViewController.swift in Sources */,
+				5656F0441B69C6FC008A0740 /* SuccessViewController.swift in Sources */,
+				5656EFED1B69831D008A0740 /* ConfirmViewController.swift in Sources */,
+				569FAABC1B71745900F5AAC3 /* simulatorHelper.c in Sources */,
+				569FAAAA1B706D8100F5AAC3 /* RecoverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5656EFD71B6982A6008A0740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5656EFBF1B6982A6008A0740 /* ColdKeySwift */;
+			targetProxy = 5656EFD61B6982A6008A0740 /* PBXContainerItemProxy */;
+		};
+		569FAA851B6AA3A700F5AAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 569FAA841B6AA3A700F5AAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5656EFCE1B6982A6008A0740 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5656EFCF1B6982A6008A0740 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5656EFDD1B6982A6008A0740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "24401508-3c71-4bce-bc6a-bb9fbe77f851";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../coldkey-swift/Libraries/CoreBitcoin/**";
+			};
+			name = Debug;
+		};
+		5656EFDE1B6982A6008A0740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "24401508-3c71-4bce-bc6a-bb9fbe77f851";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../coldkey-swift/Libraries/CoreBitcoin/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5656EFE01B6982A6008A0740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColdKeySwift",
+					"$(PROJECT_DIR)/../../coldkey-swift/Libraries/CoreBitcoin/binaries/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = ColdKeySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = ColdKeySwift;
+				PROVISIONING_PROFILE = "24401508-3c71-4bce-bc6a-bb9fbe77f851";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5656EFE11B6982A6008A0740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Yu (8N78DXZTKK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColdKeySwift",
+					"$(PROJECT_DIR)/../../coldkey-swift/Libraries/CoreBitcoin/binaries/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = ColdKeySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = ColdKeySwift;
+				PROVISIONING_PROFILE = "24401508-3c71-4bce-bc6a-bb9fbe77f851";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5656EFE31B6982A6008A0740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColdKeySwift",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColdKeySwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdKeySwift.app/ColdKeySwift";
+			};
+			name = Debug;
+		};
+		5656EFE41B6982A6008A0740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColdKeySwift",
+				);
+				INFOPLIST_FILE = ColdKeySwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdKeySwift.app/ColdKeySwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5656EFBB1B6982A6008A0740 /* Build configuration list for PBXProject "ColdKeySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656EFDD1B6982A6008A0740 /* Debug */,
+				5656EFDE1B6982A6008A0740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5656EFDF1B6982A6008A0740 /* Build configuration list for PBXNativeTarget "ColdKeySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656EFE01B6982A6008A0740 /* Debug */,
+				5656EFE11B6982A6008A0740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5656EFE21B6982A6008A0740 /* Build configuration list for PBXNativeTarget "ColdKeySwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656EFE31B6982A6008A0740 /* Debug */,
+				5656EFE41B6982A6008A0740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5656EFB81B6982A6008A0740 /* Project object */;
+}
